@@ -1,0 +1,50 @@
+head {
+    font-family: sans-serif;
+}
+body {
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: beige;
+}
+.boven {
+    font-family: sans-serif;
+    background-color: #5e9bff;
+    padding: 10px 0px 10px 0px;
+}
+.boven h1, p {
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 1px 1px darkblue;
+}
+.nav {
+    font-family: sans-serif;
+    position: relative;  
+    top: -9px;
+    padding: 9px 0px 50px 0px;
+    margin-bottom: 0px;
+}
+.nav ul, li, a {
+    display: inline;
+    padding-left: 10px;
+    text-decoration: none;
+    color: dimgray;
+}
+#menu1 {
+    float: left;
+    padding-left: 40px;
+}
+#menu2 {
+    float: right;
+    padding-right: 40px;
+}
+.open {
+    color: dimgray;
+    font-size: 30px;
+    float: left;
+    margin: lem 0 0 lem;
+    display: block;
+    cursor: pointer;
+}
